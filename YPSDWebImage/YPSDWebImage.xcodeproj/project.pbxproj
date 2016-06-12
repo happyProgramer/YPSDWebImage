@@ -13,6 +13,7 @@
 		0786C61D1D0CF167001775CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0786C61B1D0CF167001775CC /* Main.storyboard */; };
 		0786C61F1D0CF167001775CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0786C61E1D0CF167001775CC /* Assets.xcassets */; };
 		0786C6221D0CF167001775CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0786C6201D0CF167001775CC /* LaunchScreen.storyboard */; };
+		0786C62C1D0CF281001775CC /* YPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0786C62B1D0CF281001775CC /* YPOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0786C61E1D0CF167001775CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0786C6211D0CF167001775CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0786C6231D0CF167001775CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0786C62A1D0CF281001775CC /* YPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPOperation.h; sourceTree = "<group>"; };
+		0786C62B1D0CF281001775CC /* YPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		0786C6111D0CF167001775CC /* YPSDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				0786C6291D0CF263001775CC /* Classes */,
 				0786C6151D0CF167001775CC /* AppDelegate.h */,
 				0786C6161D0CF167001775CC /* AppDelegate.m */,
 				0786C6181D0CF167001775CC /* ViewController.h */,
@@ -77,6 +81,15 @@
 				0786C6131D0CF167001775CC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0786C6291D0CF263001775CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0786C62A1D0CF281001775CC /* YPOperation.h */,
+				0786C62B1D0CF281001775CC /* YPOperation.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				0786C61A1D0CF167001775CC /* ViewController.m in Sources */,
 				0786C6171D0CF167001775CC /* AppDelegate.m in Sources */,
+				0786C62C1D0CF281001775CC /* YPOperation.m in Sources */,
 				0786C6141D0CF167001775CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
