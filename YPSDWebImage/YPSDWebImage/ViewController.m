@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YPOperation.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    YPOperation *operation = [[YPOperation alloc] init];
+    
+    [operation beginOperation];
+    
 }
 
 - (void)didReceiveMemoryWarning {
